@@ -4,8 +4,6 @@
 
 HomeBase keeps everything about your property in one place — appliances, maintenance schedules, documents, finances, contractors, and more. All data lives on your device. No accounts. No subscriptions. No telemetry.
 
-Built with [Tauri](https://tauri.app) (Rust + WebView), it runs natively on macOS and Windows as a small, fast desktop application backed by a local SQLite database.
-
 ---
 
 ## Features
@@ -63,7 +61,7 @@ Built with [Tauri](https://tauri.app) (Rust + WebView), it runs natively on macO
 ### Tools
 - **Full-text search** — Cmd+K / Ctrl+K finds appliances, tasks, documents, contractors, and rooms across all records
 - **Data export** — Export everything as a ZIP archive for backup or migration
-- **Load / Clear test data** — Seed realistic sample data per property for evaluation, clear it when done
+- **Multi-property support** — Manage multiple homes from a single app
 
 ---
 
@@ -80,72 +78,14 @@ Download the latest installer from the [Releases](../../releases) page.
 | Platform | Installer |
 |----------|-----------|
 | macOS    | `.dmg`    |
-| Windows  | `.msi` or `.exe` (NSIS) |
+| Windows  | `.msi` or `.exe` |
 
 **Windows:** WebView2 is required. It is included on Windows 11 and most up-to-date Windows 10 installations. The installer will download it automatically if missing.
 
 ---
 
-## Building from Source
-
-### Prerequisites
-
-- [Rust](https://rustup.rs) 1.77+
-- [Node.js](https://nodejs.org) 20+
-- Platform system libraries (see below)
-
-**macOS**
-```bash
-xcode-select --install   # Xcode Command Line Tools
-npm install
-npm run tauri dev
-```
-
-**Linux (Ubuntu / Debian / WSL2)**
-```bash
-sudo apt update && sudo apt install -y \
-  pkg-config build-essential libwebkit2gtk-4.1-dev \
-  libssl-dev libgtk-3-dev libayatana-appindicator3-dev \
-  librsvg2-dev
-npm install
-npm run tauri dev
-```
-
-**Windows (native — recommended)**
-
-Open *Developer PowerShell for VS 2022*, then:
-```powershell
-npm install
-npm run tauri dev
-```
-
-> Visual Studio Build Tools 2022 with the C++ workload must be installed before running `npm install`. See [CLAUDE.md](CLAUDE.md) for the full setup guide.
-
-### Production build
-
-```bash
-npm run tauri build
-```
-
-Installers are written to `src-tauri/target/release/bundle/`.
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Desktop shell | [Tauri 2](https://tauri.app) (Rust) |
-| Frontend | React 18, TypeScript, Tailwind CSS |
-| Data fetching | TanStack Query v5 |
-| State | Zustand |
-| Charts | Recharts |
-| Database | SQLite via [rusqlite](https://github.com/rusqlite/rusqlite) |
-| Migrations | [rusqlite_migration](https://github.com/cljoly/rusqlite_migration) |
-| Build | Vite 8, esbuild/Terser |
-
----
-
 ## License
 
-MIT — see [LICENSE](LICENSE) for details.
+© 2026 David Jacobus. All rights reserved.
+
+HomeBase is proprietary software. Downloading and using the application does not grant any rights to the source code.

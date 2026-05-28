@@ -82,6 +82,8 @@ Download the latest installer from the [Releases](../../releases) page.
 
 **Windows:** WebView2 is required. It is included on Windows 11 and most up-to-date Windows 10 installations. The installer will download it automatically if missing.
 
+> **Windows SmartScreen warning:** When running the installer for the first time, Windows may display a "Windows protected your PC" message because the app is not yet code-signed. This is normal for new applications. Click **"More info"** then **"Run anyway"** to proceed with the installation. HomeBase does not make any network connections except for optional weather lookups and the integrations described above.
+
 ---
 
 ## License

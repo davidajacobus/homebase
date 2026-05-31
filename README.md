@@ -7,6 +7,14 @@ HomeBase keeps everything about your property in one place — appliances, maint
 ---
 
 ## Features
+<img width="1260" height="802" alt="image" src="https://github.com/user-attachments/assets/e32d22bc-3638-42d9-be17-45c4de39b0bc" />
+<img width="1260" height="802" alt="image" src="https://github.com/user-attachments/assets/42e9521c-c81f-4a9d-b015-671267346a09" />
+<img width="1260" height="802" alt="image" src="https://github.com/user-attachments/assets/c8f65b23-77dd-4046-8bbb-955b340480b7" />
+<img width="1260" height="802" alt="image" src="https://github.com/user-attachments/assets/c96679d0-72f8-459b-acc6-e720057c2317" />
+<img width="1260" height="802" alt="image" src="https://github.com/user-attachments/assets/5365c05f-4421-4bc0-a99e-78a6a340723f" />
+<img width="1260" height="802" alt="image" src="https://github.com/user-attachments/assets/8d19f22c-20ba-4498-85b2-8d1a1c1c2f00" />
+<img width="1260" height="802" alt="image" src="https://github.com/user-attachments/assets/55293f95-1b2e-4b66-ab12-0bce0dde5749" />
+
 
 ### Property
 - Store and edit full property details — address, home type, year built, square footage, purchase price and date
